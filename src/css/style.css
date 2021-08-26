@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-size: 14pt;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.panel {
+    background-color: #eee;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+label {
+    font-weight: bold;
+}

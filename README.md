@@ -1,6 +1,6 @@
-# WIP
+# WARNING: WIP
 
-Ths is a template Total KnockOut application using webpack as the build tool. Webpack configuration is far from ideal - never used it before but it's error output is handy after using gulp for so long.
+Ths is a template [Technical Knockout](https://github.com/knockout/tko) application using webpack as the build tool. Webpack configuration is far from ideal - never used it before but it's error output is handy after using gulp for so long.
 
 ## Building and Running
 

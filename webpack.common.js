@@ -7,7 +7,6 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: "TKO + Webpack",
             template: "./src/app/index.html",
         }),
     ],

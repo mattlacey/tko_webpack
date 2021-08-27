@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
+    mode: "development",
     entry: {
         app: "./src/app.js",
     },
@@ -21,7 +22,6 @@ module.exports = {
             App: path.resolve(__dirname, "src/"),
         },
     },
-    watch: true,
     module: {
         rules: [
             {
@@ -34,5 +34,4 @@ module.exports = {
             },
         ],
     },
-    mode: "development",
 };

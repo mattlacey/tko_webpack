@@ -2,13 +2,15 @@
 
 Ths is a template [Technical Knockout](https://github.com/knockout/tko) application using webpack as the build tool. Webpack configuration is far from ideal - never used it before but it's error output is handy after using gulp for so long.
 
-## Building and Running
+## Building
 
 1. Clone the repo: `git clone https://github.com/mattlacey/tko_webpack`
 2. Run `npm install`
-3. Run the build (with FS watching) via `npm run build`
-4. Open `index.html` in the `dist` directory in a browser
-5. Maybe profit?
+3. Run the build (with FS watching) via `npm run build`, this will generate output in `/dist`
+
+## Running
+
+Either open `/dist/index.html` in a browser, or run `npm start` which will run a local webserver where you can access the built application at `localhost:8080`. When using the web server the code is automatically watched and rebuilt when you save changes to a source file.
 
 ## Directories (liable to change)
 

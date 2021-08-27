@@ -3,7 +3,7 @@ import ko from "tko";
 import html from "./app.html";
 import state from "./state";
 
-import "./css/style.css";
+import "Css/style.css";
 
 import test from "Components/test";
 

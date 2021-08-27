@@ -3,11 +3,12 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: {
-        app: "./src/app.js",
+        app: "./src/app/app.js",
     },
     plugins: [
         new HtmlWebpackPlugin({
             title: "TKO + Webpack",
+            template: "./src/app/index.html",
         }),
     ],
     output: {
@@ -18,7 +19,8 @@ module.exports = {
     resolve: {
         alias: {
             Components: path.resolve(__dirname, "src/components/"),
-            App: path.resolve(__dirname, "src/"),
+            App: path.resolve(__dirname, "src/app/"),
+            Css: path.resolve(__dirname, "src/css/"),
         },
     },
     module: {

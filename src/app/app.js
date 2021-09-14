@@ -28,10 +28,7 @@ class App extends ko.Component {
 function init() {
     App.register("main-app");
 
-    let app = document.createElement("main-app");
-    document.body.appendChild(app);
-
-    ko.applyBindings(new App(), document.body);
+    ko.applyBindings();
 }
 
 init();

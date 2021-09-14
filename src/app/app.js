@@ -27,7 +27,6 @@ class App extends ko.Component {
 
 function init() {
     App.register("main-app");
-
     ko.applyBindings();
 }
 

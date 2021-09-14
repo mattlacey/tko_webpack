@@ -28,6 +28,11 @@ module.exports = {
             {
                 test: /\.html$/i,
                 loader: "html-loader",
+                options: {
+                    minimize: {
+                        removeComments: false,
+                    },
+                },
             },
             {
                 test: /\.css$/i,
